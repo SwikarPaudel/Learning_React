@@ -48,7 +48,7 @@ function App() {
                             currencyOptions={options}
                             // Fixed: Pass setFromCurrency here instead of setAmount
                             onCurrencyChange={(currency) => setFromCurrency(currency)}
-                            selectCurrency={fromCurrency}
+                            selectedCurrency={fromCurrency}
                             onAmountChange={(amount) => setAmount(amount)}
                         />
                     </div>
@@ -67,7 +67,7 @@ function App() {
                             amount={convertedAmount}
                             currencyOptions={options}
                             onCurrencyChange={(currency) => setToCurrency(currency)}
-                            selectCurrency={toCurrency}
+                            selectedCurrency={toCurrency}
                             amountDisable
                         />
                     </div>
