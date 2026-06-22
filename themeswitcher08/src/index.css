@@ -1,2 +1,5 @@
+/* src/index.css */
 @import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
+
+/* Set dark mode to target the .dark class manually via JS */
+@variant dark (&:where(.dark, .dark *));
