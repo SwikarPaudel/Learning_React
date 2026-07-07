@@ -41,11 +41,10 @@ export class AuthService{
             const user = await this.account.get();
             return user;
         }catch(error){
-            console.log(error);
-            throw error;
+            console.log("Appwrite service :: getCurrentUser :: error", error);
+        return null; 
         }
 
-        return null;
     }
 
     async logout(){
