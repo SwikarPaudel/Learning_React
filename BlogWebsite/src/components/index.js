@@ -4,9 +4,10 @@ import Container from "./container/Container";
 import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import RTE from "./RTE";
-import signup from "./Signup";
+import Signup from "./Signup";
+import Login from "./Login";
 
 export {Header, Footer
 , Container, Logo, LogoutBtn,
-RTE, Signup
+RTE, Signup, Login
 };
